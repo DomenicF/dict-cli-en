@@ -1,5 +1,8 @@
-# Dictionary
+# dict-cli-en
 > A command-line dictionary.
+
+[![NPM Version][npm-image]][npm-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
 A very simple command-line dictionary that uses the Oxford Dictionary API. My goal is to re-discover Node and learn about ES-whatever-version-we're-on, along with command line applications in general. There are other dictionary tools out there that do the same thing and this one probably isn't as good as those -- this is strictly a learning project.
 
@@ -15,7 +18,7 @@ npm install dict-cli-en --global
 
 After that, obtain your API credentials from <https://developer.oxforddictionaries.com/>. 
 
-Next, copy the `.env.example` file provided in this package to `.env` and insert your credentials.
+Next, navigate to your `/usr/lib/node_modules/dict-cli-en` directory and copy the .env.example file to .env and fill in your credentials.
 
 ## Usage example
 
@@ -30,7 +33,8 @@ Definitions:
 ```
 
 ## Release History
-
+* 1.0.1
+    * Added .env.example file.
 * 1.0.0
     * First release.
 
@@ -52,7 +56,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
+[npm-url]: https://www.npmjs.com/package/dict-cli-en
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
